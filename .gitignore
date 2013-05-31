@@ -7,8 +7,10 @@
 /bin/
 /composer.phar
 
-
 /.idea/
 /tmp/
 /nbproject/
 *.php~
+
+/00-extra/db/create-empty-database.bat
+
