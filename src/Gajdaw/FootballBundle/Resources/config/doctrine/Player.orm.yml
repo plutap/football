@@ -1,0 +1,14 @@
+Gajdaw\FootballBundle\Entity\Player:
+    type: entity
+    table: null
+    repositoryClass: Gajdaw\FootballBundle\Entity\PlayerRepository
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        name:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
